@@ -26,7 +26,7 @@ header {
     color: #fff;
     padding: 1rem 0;
     text-align: center;
-    background-image: url('textures/moroccan-flower-dark.png') ;
+    background-image: url('textures/spiration-dark.png') ;
 
 }
 
@@ -58,9 +58,43 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-    position:relative;
+    position:fixed;
     width: 100%;
     bottom: 0;
     background-image: url('textures/spiration-dark.png') ;
-
 }
+
+.imageflex { 
+    display: flex; 
+}
+.imageflexcontent { 
+    margin-left: 20px; margin-top: 0; 
+}
+
+.remark {
+    color:#0000A0;
+    font-weight: bold;
+}
+
+.totheright {
+    margin-left: 20px;
+}
+
+details {
+    padding: 0.5em 0.5em 0;
+  }
+  
+  summary {
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+  }
+  
+  details[open] {
+    padding: 0.5em;
+  }
+  
+  details[open] summary {
+    margin-bottom: 0.5em;
+  }
+  
